@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/datalogger/src-gen" creationIcons="false" editDirectory="/datalogger.edit/src-gen"
+    editorDirectory="/datalogger.editor/src-gen" modelPluginID="datalogger" modelName="Datalogger"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="21.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>datalogger.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Datalogger" disposableProviderFactory="true" ecorePackage="datalogger.ecore#/">
+    <genClasses ecoreClass="datalogger.ecore#//Buyer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference datalogger.ecore#//Buyer/buys"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Buyer/debit"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//Seller">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference datalogger.ecore#//Seller/owns"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Seller/revenue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Seller/location"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//ServiceProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference datalogger.ecore#//ServiceProvider/transactions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference datalogger.ecore#//ServiceProvider/sellers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference datalogger.ecore#//ServiceProvider/buyers"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//Product"/>
+    <genClasses ecoreClass="datalogger.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Service/sharable"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//Sellable"/>
+    <genClasses ecoreClass="datalogger.ecore#//Transaction">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference datalogger.ecore#//Transaction/seller"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference datalogger.ecore#//Transaction/customers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Transaction/date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Transaction/cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//Transaction/details"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute datalogger.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="datalogger.ecore#//Platform">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference datalogger.ecore#//Platform/serviceProviders"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

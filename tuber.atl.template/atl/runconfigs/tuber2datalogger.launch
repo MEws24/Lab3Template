@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+    <stringAttribute key="ATL File Name" value="/atl/tuber2datalogger.atl"/>
+    <stringAttribute key="ATL VM" value="EMF-specific VM"/>
+    <stringAttribute key="ATL_COMPILER" value="atl2006"/>
+    <booleanAttribute key="IS_REFINING" value="false"/>
+    <mapAttribute key="Input">
+        <mapEntry key="IN" value="tuber"/>
+    </mapAttribute>
+    <mapAttribute key="Libs"/>
+    <mapAttribute key="Model Handler">
+        <mapEntry key="datalogger" value="EMF"/>
+        <mapEntry key="tuber" value="EMF"/>
+    </mapAttribute>
+    <mapAttribute key="ModelType">
+        <mapEntry key="IN" value="MODELINPUT"/>
+        <mapEntry key="OUT" value="MODELOUTPUT"/>
+        <mapEntry key="datalogger" value="METAMODELOUTPUT"/>
+        <mapEntry key="tuber" value="METAMODELINPUT"/>
+    </mapAttribute>
+    <mapAttribute key="Options">
+        <mapEntry key="OPTION_CLEAR" value="false"/>
+        <mapEntry key="OPTION_CONTENT_TYPE" value="false"/>
+        <mapEntry key="OPTION_DERIVED" value="true"/>
+        <mapEntry key="allowInterModelReferences" value="false"/>
+        <mapEntry key="printExecutionTime" value="false"/>
+        <mapEntry key="step" value="false"/>
+        <mapEntry key="supportUML2Stereotypes" value="false"/>
+    </mapAttribute>
+    <listAttribute key="OrderedInput">
+        <listEntry value="IN"/>
+    </listAttribute>
+    <listAttribute key="OrderedOutput">
+        <listEntry value="OUT"/>
+    </listAttribute>
+    <mapAttribute key="Output">
+        <mapEntry key="OUT" value="datalogger"/>
+    </mapAttribute>
+    <mapAttribute key="Path">
+        <mapEntry key="IN" value="/atl/input/TUber.xmi"/>
+        <mapEntry key="OUT" value="/atl/output/TUber_transformed.xmi"/>
+        <mapEntry key="datalogger" value="/datalogger/model/datalogger.ecore"/>
+        <mapEntry key="tuber" value="/tuber/model/tuber.ecore"/>
+    </mapAttribute>
+    <listAttribute key="Superimpose"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+</launchConfiguration>

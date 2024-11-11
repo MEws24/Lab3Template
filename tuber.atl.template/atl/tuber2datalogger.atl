@@ -1,0 +1,7 @@
+-- @path tuber=/tuber/model/tuber.ecore
+-- @path datalogger=/datalogger/model/datalogger.ecore
+
+module tuber2datalogger;
+create OUT: datalogger from IN: tuber;
+
+-- TODO: implement transformation from TUber to datalogger 

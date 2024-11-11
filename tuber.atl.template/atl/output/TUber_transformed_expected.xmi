@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<datalogger:Platform xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datalogger="http://www.example.org/datalogger" name="TUber">
+  <serviceProviders name="WienAgent [WIEN]">
+    <transactions seller="//@serviceProviders.0/@sellers.0" customers="//@serviceProviders.0/@buyers.0" date="2024-10-22T 17:21:52.686+0200" cost="18.75" details="R1 [CAR | 4 | SHARED]"/>
+    <transactions seller="//@serviceProviders.0/@sellers.1" customers="//@serviceProviders.0/@buyers.1 //@serviceProviders.0/@buyers.2" date="2024-10-23T 15:49:31.115+0200" cost="34.5" details="R2 [LUXURY | 2 | SHARED]"/>
+    <transactions seller="//@serviceProviders.0/@sellers.2" customers="//@serviceProviders.0/@buyers.2" date="2024-10-24T 12:56:57.821+0200" cost="17.58" details="R3 [CAR | 4]"/>
+    <sellers name="D1 [4.75]" revenue="18.75" location="(48.2081 | 16.3713)">
+      <owns xsi:type="datalogger:Service" name="V1 [CAR | 4 | SHARED]" sharable="true"/>
+    </sellers>
+    <sellers name="D2 [4.97]" revenue="73.26" location="(48.2075 | 16.3728)">
+      <owns xsi:type="datalogger:Service" name="V2 [LUXURY | 2 | SHARED]" sharable="true"/>
+    </sellers>
+    <sellers name="D3 [4.92]" revenue="17.58" location="(48.2093 | 16.3698)">
+      <owns xsi:type="datalogger:Service" name="V3 [CAR | 4]"/>
+    </sellers>
+    <buyers name="C1 [4.95]" buys="//@serviceProviders.0/@sellers.0/@owns.0" debit="18.75"/>
+    <buyers name="C2 [4.87]" buys="//@serviceProviders.0/@sellers.1/@owns.0" debit="17.25"/>
+    <buyers name="C3 [4.07]" buys="//@serviceProviders.0/@sellers.2/@owns.0 //@serviceProviders.0/@sellers.1/@owns.0" debit="34.83"/>
+  </serviceProviders>
+  <serviceProviders name="SalzburgAgent [SALZBURG]">
+    <transactions seller="//@serviceProviders.1/@sellers.0" customers="//@serviceProviders.1/@buyers.0" date="2024-10-24T 18:21:19.633+0200" details="R5 [MOTORBIKE | 1]"/>
+    <sellers name="D4 [4.75]" revenue="13.1" location="(47.7581 | 13.0527)">
+      <owns xsi:type="datalogger:Service" name="V4 [MOTORBIKE | 1]"/>
+    </sellers>
+    <buyers name="C4 [5.0]" buys="//@serviceProviders.1/@sellers.0/@owns.0" debit="13.1"/>
+  </serviceProviders>
+  <serviceProviders name="LinzAgent [LINZ]"/>
+</datalogger:Platform>
