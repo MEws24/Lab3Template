@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.emf.henshin.interpreter.ui.ruleLaunchConfigurationType">
-    <stringAttribute key="INPUT_URI" value="platform:/resource/henshin-template/instances/AddNewCarRide_input.xmi"/>
-    <stringAttribute key="MODULE_PATH" value="platform:/resource/henshin-template/tuber.henshin"/>
+    <stringAttribute key="INPUT_URI" value="platform:/resource/tuber.henshin/instances/AddNewCarRide_input.xmi"/>
+    <stringAttribute key="MODULE_PATH" value="platform:/resource/tuber.henshin/tuber.henshin"/>
     <booleanAttribute key="OPEN_COMPARE" value="true"/>
-    <stringAttribute key="OUTPUT_URI" value="platform:/resource/henshin-template/instances/AddNewCarRide_input_transformed.xmi"/>
+    <stringAttribute key="OUTPUT_URI" value="platform:/resource/tuber.henshin/instances/AddNewCarRide_input_transformed.xmi"/>
     <mapAttribute key="PARAMETER_TYPES">
         <mapEntry key="city" value="2"/>
     </mapAttribute>
