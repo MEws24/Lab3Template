@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_hCV00Z-8Ee-Ct4JcSbju6g" type="Henshin" name="tuber.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_i3TLUJ-8Ee-Ct4JcSbju6g" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i3TLUp-8Ee-Ct4JcSbju6g" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i3TLU5-8Ee-Ct4JcSbju6g" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_i3Pg8J-8Ee-Ct4JcSbju6g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i3TLUZ-8Ee-Ct4JcSbju6g" x="37" y="77"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lriNgJ-8Ee-Ct4JcSbju6g" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lri0kZ-8Ee-Ct4JcSbju6g" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lri0kp-8Ee-Ct4JcSbju6g" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_lrfKMJ-8Ee-Ct4JcSbju6g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lri0kJ-8Ee-Ct4JcSbju6g" x="599" y="77" width="251" height="209"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FitacJ-9Ee-5zMGgZq2spg" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fitacp-9Ee-5zMGgZq2spg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FiuBgJ-9Ee-5zMGgZq2spg" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_FiXcMJ-9Ee-5zMGgZq2spg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FitacZ-9Ee-5zMGgZq2spg" x="45" y="344" width="269" height="216"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_GMMcUJ-9Ee-5zMGgZq2spg" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GMNDYJ-9Ee-5zMGgZq2spg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GMNDYZ-9Ee-5zMGgZq2spg" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_GML1QJ-9Ee-5zMGgZq2spg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GMMcUZ-9Ee-5zMGgZq2spg" x="379" y="344" width="311" height="216"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MOZPUJ-9Ee-5zMGgZq2spg" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MOZPUp-9Ee-5zMGgZq2spg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MOZPU5-9Ee-5zMGgZq2spg" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_MOXaIJ-9Ee-5zMGgZq2spg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOZPUZ-9Ee-5zMGgZq2spg" x="45" y="591" width="297" height="202"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OpxFkJ-9Ee-5zMGgZq2spg" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OpxFkp-9Ee-5zMGgZq2spg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OpxFk5-9Ee-5zMGgZq2spg" type="7001"/>
+    <element xmi:type="henshin:Rule" href="tuber.henshin#_Ops0IJ-9Ee-5zMGgZq2spg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OpxFkZ-9Ee-5zMGgZq2spg" x="387" y="586" width="310" height="207"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_hCV00p-8Ee-Ct4JcSbju6g"/>
+  <element xmi:type="henshin:Module" href="tuber.henshin#_hCV00J-8Ee-Ct4JcSbju6g"/>
+</notation:Diagram>

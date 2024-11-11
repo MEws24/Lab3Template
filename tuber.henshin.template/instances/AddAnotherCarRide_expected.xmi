@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tuber:TUber xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuber="http://www.example.org/tuber" xsi:schemaLocation="http://www.example.org/tuber ../../tuber/model/tuber.ecore">
+  <agent name="Vienna">
+    <rides xsi:type="tuber:CarRide" customer="//@agent.0/@enrolls.0" driver="//@agent.0/@hires.0" id="1" status="COMPLETED"/>
+    <rides xsi:type="tuber:CarRide" customer="//@agent.0/@enrolls.2" driver="//@agent.0/@hires.2" id="2" status="COMPLETED"/>
+    <rides xsi:type="tuber:CarRide" customer="//@agent.0/@enrolls.6" driver="//@agent.0/@hires.5" id="1" status="COMPLETED"/>
+    <rides xsi:type="tuber:CarRide" customer="//@agent.0/@enrolls.7" driver="//@agent.0/@hires.6" id="2" status="COMPLETED"/>
+    <rides xsi:type="tuber:CarRide" customer="//@agent.0/@enrolls.2" driver="//@agent.0/@hires.2" id="2" status="ONGOING"/>
+    <hires name="D1">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D2">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D3" status="ONGOING">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D4">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D5">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D6" status="ONGOING">
+      <vehicle name="Camry"/>
+    </hires>
+    <hires name="D7" status="ONGOING">
+      <vehicle name="Camry"/>
+    </hires>
+    <enrolls name="C1" status="REQUESTED"/>
+    <enrolls name="C2" status="REQUESTED"/>
+    <enrolls name="C3" status="ONGOING"/>
+    <enrolls name="C4" status="REQUESTED"/>
+    <enrolls name="C5" status="REQUESTED"/>
+    <enrolls name="C6"/>
+    <enrolls name="C7" status="ONGOING"/>
+    <enrolls name="C8" status="ONGOING"/>
+  </agent>
+</tuber:TUber>

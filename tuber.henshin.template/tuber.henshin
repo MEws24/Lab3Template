@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_hCV00J-8Ee-Ct4JcSbju6g">
+  <imports href="tuber.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_i3Pg8J-8Ee-Ct4JcSbju6g" name="addNewCarRide">
+    <parameters xmi:id="_6BZc8J_IEe-5zMGgZq2spg" name="city" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_i3UZcJ-8Ee-Ct4JcSbju6g" name="Lhs"/>
+    <rhs xmi:id="_i3UZcZ-8Ee-Ct4JcSbju6g" name="Rhs"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_lrfKMJ-8Ee-Ct4JcSbju6g" name="createNewCarRide">
+    <lhs xmi:id="_lrkCsJ-8Ee-Ct4JcSbju6g" name="Lhs"/>
+    <rhs xmi:id="_lrkCsZ-8Ee-Ct4JcSbju6g" name="Rhs"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_FiXcMJ-9Ee-5zMGgZq2spg" name="removeBadCustomer">
+    <lhs xmi:id="_FivPoJ-9Ee-5zMGgZq2spg" name="Lhs"/>
+    <rhs xmi:id="_Fiv2sJ-9Ee-5zMGgZq2spg" name="Rhs"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_GML1QJ-9Ee-5zMGgZq2spg" name="removeBadDriver">
+    <lhs xmi:id="_GMNqcJ-9Ee-5zMGgZq2spg" name="Lhs"/>
+    <rhs xmi:id="_GMNqcZ-9Ee-5zMGgZq2spg" name="Rhs"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_MOXaIJ-9Ee-5zMGgZq2spg" name="removeRidesWithoutCustomers">
+    <lhs xmi:id="_MOZ2YJ-9Ee-5zMGgZq2spg" name="Lhs"/>
+    <rhs xmi:id="_MOZ2YZ-9Ee-5zMGgZq2spg" name="Rhs"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_Ops0IJ-9Ee-5zMGgZq2spg" name="removeRidesWithoutDrivers">
+    <lhs xmi:id="_Opy6wJ-9Ee-5zMGgZq2spg" name="Lhs"/>
+    <rhs xmi:id="_Opy6wZ-9Ee-5zMGgZq2spg" name="Rhs"/>
+  </units>
+</henshin:Module>

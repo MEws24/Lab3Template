@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tuber:TUber xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuber="http://www.example.org/tuber" xsi:schemaLocation="http://www.example.org/tuber ../../tuber/model/tuber.ecore">
+  <agent name="Vienna">
+    <rides xsi:type="tuber:CarRide" id="1"/>
+    <rides xsi:type="tuber:CarRide" id="1"/>
+  </agent>
+</tuber:TUber>
